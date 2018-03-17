@@ -33,6 +33,7 @@ public class StackAdapter extends BaseAdapter {
 
     @Override
     public int getCount() {
+        //it will return the size of items.....
         return items.size();
     }
 
